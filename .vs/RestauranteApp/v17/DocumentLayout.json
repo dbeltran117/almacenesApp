@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|c:\\users\\diego\\source\\repos\\restauranteapp\\restauranteapp\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|solutionrelative:restauranteapp\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|c:\\users\\diego\\source\\repos\\restauranteapp\\restauranteapp\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|solutionrelative:restauranteapp\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|c:\\users\\diego\\source\\repos\\restauranteapp\\restauranteapp\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8500DFD-B0EB-4E28-9D93-0FA70687728A}|RestauranteApp\\AlmacenApp.csproj|solutionrelative:restauranteapp\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +58,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "FrmUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "RestauranteApp\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\FrmUsuarios.cs",
+              "RelativeToolTip": "RestauranteApp\\FrmUsuarios.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:24:25.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmUsuarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "RestauranteApp\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\FrmUsuarios.cs [Design]",
+              "RelativeToolTip": "RestauranteApp\\FrmUsuarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:02:39.776Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ManejadorUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\Manejadores\\ManejadorUsuarios.cs",
               "RelativeDocumentMoniker": "Manejadores\\ManejadorUsuarios.cs",
@@ -58,25 +91,24 @@
               "RelativeToolTip": "Manejadores\\ManejadorUsuarios.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T17:08:39.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T17:08:39.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "RestauranteApp\\MenuPrincipal.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\MenuPrincipal.cs",
               "RelativeToolTip": "RestauranteApp\\MenuPrincipal.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T17:17:58.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "RestauranteApp\\MenuPrincipal.cs",
@@ -88,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\Form1.cs",
               "RelativeDocumentMoniker": "RestauranteApp\\Form1.cs",
@@ -100,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\RestauranteApp\\RestauranteApp\\Form1.cs",
               "RelativeDocumentMoniker": "RestauranteApp\\Form1.cs",

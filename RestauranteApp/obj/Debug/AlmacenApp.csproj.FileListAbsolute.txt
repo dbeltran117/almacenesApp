@@ -44,3 +44,4 @@ C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\AlmacenApp.c
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.exe
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.pdb
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.MenuPrincipal.resources
+C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.FrmUsuarios.resources

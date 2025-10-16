@@ -33,13 +33,14 @@ namespace RestauranteApp
             salirToolStripMenuItem.Enabled = true;
             foreach (var permiso in _usuario.permisos)
             {
-                if (permiso.NombreModulo.Equals("producto",StringComparison.OrdinalIgnoreCase))
+                if (permiso.NombreModulo.Equals("productos",StringComparison.OrdinalIgnoreCase))
                 {
                     productoToolStripMenuItem.Enabled = permiso.PermisoLeerAbrir;
                 }
-                else if (permiso.NombreModulo.Equals("usuario",StringComparison.OrdinalIgnoreCase))
+                else if (permiso.NombreModulo.Equals("usuarios",StringComparison.OrdinalIgnoreCase))
                 {
                     usuarioToolStripMenuItem.Enabled = permiso.PermisoEscritura;
+                    usuarioToolStripMenuItem.Enabled = permiso.PermisoLeerAbrir;
                 }
             }
         }
@@ -51,7 +52,9 @@ namespace RestauranteApp
 
         private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Entro a Usuarios");
+            FrmUsuarios fu = new FrmUsuarios();
+            fu.MdiParent = this;
+            fu.Show();
         }
     }
 }
