@@ -34,9 +34,9 @@
             this.TxtBuscar = new System.Windows.Forms.TextBox();
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.BtnAgregar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DtgDatos = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtgDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -86,6 +86,7 @@
             this.BtnBuscar.TabIndex = 3;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // BtnAgregar
             // 
@@ -95,24 +96,28 @@
             this.BtnAgregar.TabIndex = 4;
             this.BtnAgregar.Text = "+";
             this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
-            // dataGridView1
+            // DtgDatos
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 102);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(944, 407);
-            this.dataGridView1.TabIndex = 5;
+            this.DtgDatos.AllowUserToAddRows = false;
+            this.DtgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtgDatos.Location = new System.Drawing.Point(18, 102);
+            this.DtgDatos.Name = "DtgDatos";
+            this.DtgDatos.ReadOnly = true;
+            this.DtgDatos.RowHeadersWidth = 51;
+            this.DtgDatos.RowTemplate.Height = 24;
+            this.DtgDatos.Size = new System.Drawing.Size(944, 407);
+            this.DtgDatos.TabIndex = 5;
+            this.DtgDatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgDatos_CellClick);
+            this.DtgDatos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgDatos_CellEnter);
             // 
             // FrmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 521);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DtgDatos);
             this.Controls.Add(this.BtnAgregar);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.TxtBuscar);
@@ -120,12 +125,12 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FrmUsuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmUsuarios";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtgDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,6 +144,6 @@
         private System.Windows.Forms.TextBox TxtBuscar;
         private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.Button BtnAgregar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DtgDatos;
     }
 }

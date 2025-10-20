@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using AccesoDatos;
 using Entidades;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Manejadores
 {
@@ -54,6 +57,41 @@ namespace Manejadores
             {
                 return (false, "Credenciales inválidas.", null); 
             }
+        }
+
+        public string AgregarUsuario(string nombreUsuario, string clave, string email)
+        {
+            if (string.IsNullOrWhiteSpace(nombreUsuario) || string.IsNullOrWhiteSpace(clave) || string.IsNullOrWhiteSpace(email))
+            {
+                return "El nombre de usuario, la clave y el email no pueden estar vacíos.";
+            }
+            return _userAD.AgregarUsuario(nombreUsuario, clave, email);
+        }
+
+        public void VerUsuarios(System.Windows.Forms.TextBox usuario , DataGridView tablas)
+        {
+            tablas.Columns.Clear();
+            tablas.DataSource = _userAD.VerUsuarios(usuario.Text).Tables[0];
+            tablas.Columns["Id"].Visible = false;
+            tablas.Columns.Insert(3, Boton("Eliminar", Color.Red));
+            tablas.AutoResizeColumns();
+            tablas.AutoResizeRows();
+        }
+
+        public string EliminarUsuario(Usuario u)
+        {
+            return _userAD.EliminarUsuario(u.Id);
+        }
+
+        public static DataGridViewButtonColumn Boton(string titulo, Color fondo)
+        {
+            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            btn.Text = titulo;
+            btn.DefaultCellStyle.BackColor = fondo;
+            btn.DefaultCellStyle.ForeColor = Color.White;
+            btn.FlatStyle = FlatStyle.Popup;
+            btn.UseColumnTextForButtonValue = true;
+            return btn;
         }
     }
 }

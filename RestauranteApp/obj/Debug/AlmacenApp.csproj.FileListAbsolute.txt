@@ -45,3 +45,4 @@ C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteA
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.pdb
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.MenuPrincipal.resources
 C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.FrmUsuarios.resources
+C:\Users\diego\source\repos\RestauranteApp\RestauranteApp\obj\Debug\RestauranteApp.FrmDatosUsuarios.resources
